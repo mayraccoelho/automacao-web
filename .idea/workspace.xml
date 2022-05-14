@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="356468c4-610a-4088-8e40-f4a726639695" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/automacaoWeb/TesteWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/media/MediaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.features" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/automacaoWeb/TesteWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/media/MediaTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.TesteWeb">
+  <component name="RunManager" selected="JUnit.RunnerTest">
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomacaoSemComplicacaoWeb20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.mcoelho.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.mcoelho.runner" />
+      <option name="MAIN_CLASS_NAME" value="br.com.mcoelho.runner.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoSemComplicacaoWeb20" />
       <extension name="coverage">
@@ -67,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="JUnit.TesteWeb" />
         <item itemvalue="JUnit.TesteWeb.primeiroTeste" />
       </list>
@@ -85,6 +105,17 @@
       <updated>1649616125063</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
