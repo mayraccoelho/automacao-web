@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="356468c4-610a-4088-8e40-f4a726639695" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/automacaoWeb/TesteWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/media/MediaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.features" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/automacaoWeb/TesteWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/media/MediaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/core/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/core/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
