@@ -7,40 +7,44 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
     LoginMap loginmap;
 
-    public LoginPage(){
+    public LoginPage() {
         loginmap = new LoginMap();
         PageFactory.initElements(Driver.getDriver(), loginmap);
     }
 
-    public void clickBtnLogin(){
+    public void clickBtnLogin() {
         loginmap.btnLogin.click();
     }
 
-    public void clickDivFecharModal(){
+    public void clickBtnFechar() {
+        loginmap.btnFechar.click();
+    }
+
+    public void clickDivFecharModal() {
         loginmap.divFecharModal.click();
     }
 
-    public void setInpUserName(String username){
+    public void setInpUserName(String username) {
         loginmap.inpUserName.sendKeys(username);
     }
 
-    public void setInpPassword(String password){
+    public void setInpPassword(String password) {
         loginmap.inpPassword.sendKeys(password);
     }
 
-    public void clickInpRemember(){
+    public void clickInpRemember() {
         loginmap.inpRemember.click();
     }
 
-    public void clickLnkCreateAccount(){
+    public void clickLnkCreateAccount() {
         loginmap.lnkCreateAccount.click();
     }
 
-    public void clickBtnSignIn(){
+    public void clickBtnSignIn() {
         loginmap.btnSignIn.click();
     }
 
-    public boolean isBtnSignIn(){
+    public boolean isBtnSignIn() {
         return loginmap.btnSignIn.isEnabled();
     }
 }
