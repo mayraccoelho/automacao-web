@@ -7,8 +7,14 @@
     <list default="true" id="356468c4-610a-4088-8e40-f4a726639695" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/core/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/core/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/maps/LoginMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/maps/LoginMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/runner/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mcoelho/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/core/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/core/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/runner/RunnerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

@@ -13,6 +13,7 @@ public class LoginPage {
     }
 
     public void clickBtnLogin() {
+        Driver.visibilityOf(loginmap.btnLogin);
         loginmap.btnLogin.click();
     }
 
@@ -47,4 +48,13 @@ public class LoginPage {
     public boolean isBtnSignIn() {
         return loginmap.btnSignIn.isEnabled();
     }
+
+    public void visibilityOfBtnFechar(){
+        Driver.visibilityOf(loginmap.btnFechar);
+    }
+
+    public void invisibilityOfBtnFechar(){
+        Driver.invisibilityOf(loginmap.btnFechar);
+    }
+
 }
