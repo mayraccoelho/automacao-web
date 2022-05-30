@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/reports/cucumberReport.json", "pretty"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = "src/test/resources/features/",
-        glue = "src/test/java/br/com/mcoelho/steps/",
-        tags = ""
+        glue = "br/com/mcoelho/steps",
+        tags = "@Teste"
 
 )
 public class RunnerTest {

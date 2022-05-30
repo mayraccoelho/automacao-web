@@ -1,6 +1,7 @@
 package br.com.mcoelho.steps;
 
 import br.com.mcoelho.core.Driver;
+import br.com.mcoelho.enums.Browser;
 import br.com.mcoelho.pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -16,7 +17,7 @@ public class LoginStep {
 
     @Before
     public void iniciaNavegador() {
-        new Driver("chrome");
+        new Driver(Browser.CHROME);
     }
 
     @After
@@ -37,8 +38,12 @@ public class LoginStep {
     }
 
     @Entao("a janela modal deve ser fechada")
-    public void aJanelaModalDeveSerFechada() {
-
+    public void aJanelaModalDeveSerFechada() throws Exception {
+        try {
+            loginPage.invisibilityOfBtnFechar();
+        } catch (Exception e){
+            throw new Exception("A janela modal não foi fechada");
+        }
     }
 
     @Quando("for realizado um clique no icone de fechar")
