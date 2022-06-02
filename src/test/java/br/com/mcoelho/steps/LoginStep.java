@@ -2,7 +2,9 @@ package br.com.mcoelho.steps;
 
 import br.com.mcoelho.core.Driver;
 import br.com.mcoelho.enums.Browser;
+import br.com.mcoelho.maps.NewAccountMap;
 import br.com.mcoelho.pages.LoginPage;
+import br.com.mcoelho.pages.NewAccountPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
@@ -21,7 +23,7 @@ public class LoginStep {
     }
 
     @After
-    public void fecharNavegador(){
+    public void fecharNavegador() {
         Driver.getDriver().quit();
     }
 
@@ -30,6 +32,8 @@ public class LoginStep {
         Driver.getDriver().get("https://advantageonlineshopping.com/");
         loginPage = new LoginPage();
         loginPage.clickBtnLogin();
+        loginPage.visibilityOfBtnFechar();
+        loginPage.waitLoader();
     }
 
     @Quando("for realizado um clique fora da modal")
@@ -41,7 +45,7 @@ public class LoginStep {
     public void aJanelaModalDeveSerFechada() throws Exception {
         try {
             loginPage.invisibilityOfBtnFechar();
-        } catch (Exception e){
+        } catch (Exception e) {
             throw new Exception("A janela modal não foi fechada");
         }
     }
@@ -60,7 +64,8 @@ public class LoginStep {
 
     @Entao("a pagina Create new Account deve ser exibida")
     public void aPaginaCreateNewAccountDeveSerExibida() {
-
+        NewAccountPage newAccountPage = new NewAccountPage();
+        Assert.assertEquals("CREATE ACCOUNT", newAccountPage.getTxtNewAccount());
     }
 
 
@@ -69,11 +74,14 @@ public class LoginStep {
         String username = map.get("login");
         String password = map.get("password");
         boolean remember = Boolean.parseBoolean(map.get("remember"));
+        if (username != null) {
+            loginPage.setInpUserName(username);
+        }
+        if (password != null) {
+            loginPage.setInpPassword(password);
+        }
 
-        loginPage.setInpUserName(username);
-        loginPage.setInpPassword(password);
-
-        if(remember) loginPage.clickInpRemember();
+        if (remember) loginPage.clickInpRemember();
     }
 
     @Quando("for realizado um clique no botao sign in")

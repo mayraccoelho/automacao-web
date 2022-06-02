@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberReport.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/core/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/core/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/mcoelho/runner/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
