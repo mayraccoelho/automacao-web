@@ -8,15 +8,15 @@ Funcionalidade: Login
   Cenario: Fechar a modal ao clicar fora da mesma
     Quando for realizado um clique fora da modal
     Entao a janela modal deve ser fechada
-
+@Teste2
   Cenario: Fechar a modal ao clicar no icone fechar
     Quando for realizado um clique no icone de fechar
     Entao a janela modal deve ser fechada
-
+@Teste3
   Cenario: Link Create New Account
     Quando for realizado um clique no link Create New Account
     Entao a pagina Create new Account deve ser exibida
-
+@Teste4
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login forem preenchidos da seguinte forma
       | login    | <login>    |
@@ -42,7 +42,7 @@ Funcionalidade: Login
       | identificacao    | login    | password | remember |
       | usuario invalido | invalido | senha    | true     |
       | senha invalida   | chronos  | invalido | true     |
-
+  @Teste5
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login forem preenchidos da seguinte forma
       | login    | <login>    |
